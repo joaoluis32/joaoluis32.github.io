@@ -1,0 +1,113 @@
+body{
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: white;
+}
+header{
+    margin-top: 20px;
+}
+footer{
+    background-color: rgb(75,75,75);
+    padding: 12px 0px;
+    font-weight: bold;
+}
+h1,h2,h3{
+    margin:0px;
+}
+header>nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+header>nav>a{
+    background-color: gray;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 41px;
+    display: inline-block;
+    color: white;
+    margin: 0 -3px;
+    font-weight: bold;
+    background-color: rgb(75,75,75);
+}
+
+header > nav > a:hover{
+    background-color: rgb(200,200,200);
+    transition-duration: 0.5s;
+}
+
+#banner{
+    height: 500px;
+    margin-top: -30px;
+    background-image: url(Imagens/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#banner>h1, #banner>h3{
+    background-color: rgba(0,0,0,0.75);
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px 0px;
+}
+
+#banner>h1{
+    font-size: 2.5rem;
+}
+#banner>h3{
+    font-size: 1.25rem;
+}
+
+main>h1{
+    background-color: red;
+    padding: 25px 0px;
+}
+
+#energias{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.divImg{
+    height: 300px;
+    width: 50%;
+    background-color: red;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+#energiaOne{
+    background-image: url(Imagens/energiaSolar.png);
+}
+#energiaTwo{
+    background-image: url(Imagens/energiaeolica.jpg);
+}
+#energiaTree{
+    background-image: url(Imagens/energia-hidreletrica-fb.jpg);
+
+}
+#energiaFour{
+    background-image: url(Imagens/energia-nuclear1.jpg);
+}
+
+.divImg:hover{
+    color: red;
+    filter: brightness(150%);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+
