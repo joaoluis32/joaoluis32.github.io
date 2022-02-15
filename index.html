@@ -2,57 +2,71 @@
 <html>
 <!-- 
 Ficheiro: index.html
-Prova: Trabalho 8 - Mastercode 
+Prova: Trabalho 9 - Mastercode 
 Aluno: João Pedro Martins Luís
 email: jonyluis1989@gmail.com
-Data: 31-01-2022
+Data: 02-02-2022
  -->
-
 <head>
     <meta charset="UTF-8">
-    <title>Energias</title>
+    <title>Meu Google</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
 </head>
 
 <body>
-    <!--Header da página com um navegador-->
+    <!--Header da página-->
     <header>
         <nav>
-            <a href="#">Home</a>
-            <a href="#">QUEM SOMOS</a>
-            <a href="#">PRODUTOS</a>
-            <a href="#">SERVIÇOS</a>
-            <a href="#">CONTACTOS</a>
+            <a href="#">Gmail</a>
+            <a href="#">Imagens</a>
+            <a href="#"><img src="imagens/apps.png" alt="imagem" id="imgLogoOne"></a>
+            <a href="#"><div id="logoOne"></div></a>
+            <a href="#"><img src="imagens/user.png" alt="imagem" id="logoTwo"></a>
         </nav>
     </header>
+     <!--Main da página-->
     <main>
-         <!--Primeira divisão do Main com uma Imagem e 2 titulos-->
-        <div id="banner">
-                <h1>Somos uma empresa do setor Energetico</h1>
-                <h3>Venha conhecer nossos produtos e serviços</h3>
+        <img src="imagens/google.png" alt="goosgle" id="google">
+        <br>
+        <div id="divPesquisa">
+            <a href="#"><img src="imagens/lupa.png" alt="lupa" id="lupa"></a>
+            <input type="text">
+            <a href="#"><img src="imagens/teclado.png" alt="teclado" id="teclado"></a>
+            <a href="#"><img src="imagens/mic.png" alt="teclado" id="mic"></a>
         </div>
-        <!--Segunda Divisão do Main com um título-->
-        <h1>Nossas fontes de Energias</h1>
-        <!--Terceira divisão do Main com 4 imagens e 4 títulos-->
-        <div id="energias">
-            <div class="divImg" id="energiaOne">
-                <h2>ENERGIA SOLAR</h2>
-            </div>
-            <div class="divImg" id="energiaTwo">
-                <h2>ENERGIA EOLICA</h2>
-            </div>
-            <div class="divImg" id="energiaTree">
-                <h2>ENERGIA HIDRELETRICA</h2>
-            </div>
-            <div class="divImg" id="energiaFour">
-                <h2>ENERGIA NUCLEAR</h2>
-            </div>
+        <br><br><br>
+        <div id="divButtons">
+            <a><button>Pesquisa Google</button></a>
+            <a><button>Sinto-me com Sorte</button></a>
+        </div>
+        <br><br><br>
+        <div>
+            <p>Disponibilizado pelo google em: <a href="#">English</a></p>
         </div>
     </main>
     <!--Footer da página-->
     <footer>
-        JOAO LUÍS &#169 2022
+        <div id="footerTop">Portugal</div>
+        <hr>
+        <div id="footerCenter">
+            <div>
+                <a href="https://sustainability.google/intl/pt-PT/commitments-europe/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=">
+                <img src="imagens/folha.png" alt="imagem" id="folha">
+                 Neutralização de emissões de carbono desde 2007
+                </a>
+            </div>
+        </div>
+        <br><br>
+        <div id="footerDown">
+            <a href="#">Sobre</a>
+            <a href="#">Publicidade</a>
+            <a href="#">Negócios</a>
+            <a href="#">Como funciona a Pesquisa</a>
+            <a href="#" id="privacidade">Privacidade</a>
+            <a href="#">Termos</a>
+            <a href="#">Definições</a>
+        </div>
     </footer>
 </body>
 

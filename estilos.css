@@ -1,113 +1,163 @@
-body{
-    margin: 0px;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    color: white;
-}
-header{
-    margin-top: 20px;
-}
-footer{
-    background-color: rgb(75,75,75);
-    padding: 12px 0px;
-    font-weight: bold;
-}
-h1,h2,h3{
+html,body{
     margin:0px;
+    min-width: 1000px;
+    min-height: 850px;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+header{
+    height: auto;
+    padding: 20px;
+    font-size: 13px;
 }
 header>nav{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    flex-wrap: nowrap;
+    justify-content: end;
+    gap: 25px;
+}
+main{
+    width: 100%;
+    height: 78%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+}
+#imgLogoOne{
+    margin-left: 15px; 
+}
+#logoOne{
+    width: 34px;
+    height: 34px;
+    border-radius: 20px;
+    margin-top: -7px;
+    margin-left: -53px;
+}
+#logoOne:hover{
+    background-color: rgb(240,240,240,0.6);
+}
+#logoTwo{
+    margin-top: -10px;
+    margin-left: -10px;
+    border-radius: 15px;
+}
+#logoTwo:hover{
+    margin-top: -10px;
+    margin-left: -10px;
+    box-shadow:  0px 0px 2px gray;
 }
 header>nav>a{
-    background-color: gray;
     text-decoration: none;
-    text-transform: uppercase;
-    padding: 20px 41px;
-    display: inline-block;
-    color: white;
-    margin: 0 -3px;
-    font-weight: bold;
-    background-color: rgb(75,75,75);
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+input{
+    width: 80%;
+    height: 30px;
+    border:none;
+    outline: none;
+    margin-top: -5px;
+}
+button{
+    text-decoration: none;
+    border: none;
+    background-color: white;
+    padding: 10px 10px;
+    color: #202124;
 }
 
-header > nav > a:hover{
-    background-color: rgb(200,200,200);
-    transition-duration: 0.5s;
+#google{
+    width: 272px;
+    height: 92px;
 }
-
-#banner{
-    height: 500px;
-    margin-top: -30px;
-    background-image: url(Imagens/banner.jpg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+#lupa{
+    width: 20px;
+    height: 20px;
 }
-
-#banner>h1, #banner>h3{
-    background-color: rgba(0,0,0,0.75);
-    color: white;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 5px 0px;
+#teclado,#mic{
+    width: 24px;
+    height: 24px;
 }
-
-#banner>h1{
-    font-size: 2.5rem;
-}
-#banner>h3{
-    font-size: 1.25rem;
-}
-
-main>h1{
-    background-color: red;
-    padding: 25px 0px;
-}
-
-#energias{
+#divPesquisa{
+    width: 600px;
+    height: 35px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid rgb(223,225,229);
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    text-align: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    padding: 10px 10px 0px 10px;
 }
 
-.divImg{
-    height: 300px;
-    width: 50%;
-    background-color: red;
-    color: white;
+#divPesquisa:hover{
+    box-shadow: 0px 1px 3px rgb(192, 185, 185);
+}
+#divButtons{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-size: cover;
-    background-position: center;
-    font-size: 1.15rem;
-    font-weight: bold;
+    flex-direction: row;
+    gap: 30px;
 }
-#energiaOne{
-    background-image: url(Imagens/energiaSolar.png);
-}
-#energiaTwo{
-    background-image: url(Imagens/energiaeolica.jpg);
-}
-#energiaTree{
-    background-image: url(Imagens/energia-hidreletrica-fb.jpg);
-
-}
-#energiaFour{
-    background-image: url(Imagens/energia-nuclear1.jpg);
+button{
+    background-color: rgb(248,249,250);
+    padding: 10px 16px;
 }
 
-.divImg:hover{
-    color: red;
-    filter: brightness(150%);
-    transition-duration: 0.5s;
+button:hover{
     cursor: pointer;
+    outline: 1px solid rgb(223,225,229);
+}
+footer{
+    height: auto;
+    background-color: rgb(242,242,242) ;
+}
+footer>#footerTop{
+    padding: 10px 0px 5px 10px;
+    color: #70757A;
+}
+#footerCenter{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#footerCenter>div{
+    padding-top: 10px;
 }
 
+#footerCenter>div>a{
+    color: #70757A;
+    text-decoration: none;
+}
+#footerCenter>div>a:hover{
+    text-decoration: underline;
+}
 
+#footerDown{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:20px;
+    padding-bottom: 10px;
+}
+#folha{
+    width: 15px;
+    height: 15px;
+}
+footer>div>a{
+    text-decoration: none;
+    color: #70757A;
+}
+
+#privacidade{
+    margin-left: 100px;
+}
