@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<ROOT>
+<REGRAS>
+	
+
+<REGRA name="Numero Maximo Avaliações Dia ">
+	<NUMOMENTOSDIA>1 Momento de Avaliação</NUMOMENTOSDIA>
+	<NUMOMENTOSDIA>2 Momentos de Avaliações</NUMOMENTOSDIA>
+	
+</REGRA>
+<REGRA name="Numero Maximo Avaliações por Semana ">
+	<NUMOMENTOSSEM>1 Momento de Avaliação</NUMOMENTOSSEM>
+	<NUMOMENTOSSEM>2 Momentos de Avaliações</NUMOMENTOSSEM>
+	<NUMOMENTOSSEM>3 Momentos de Avaliações</NUMOMENTOSSEM>
+</REGRA>
+<REGRA name="Condicao">
+	<CONDICAO>Maior</CONDICAO>
+	<CONDICAO>Menor</CONDICAO>
+	<CONDICAO>Igual</CONDICAO>
+	<CONDICAO>Maior ou Igual</CONDICAO>
+	<CONDICAO>Menor ou Igual</CONDICAO>
+</REGRA>
+
+<REGRA name="Proximidade">
+	<PROXIMIDADE>1 Dia</PROXIMIDADE>
+	<PROXIMIDADE>2 Dias</PROXIMIDADE>
+	<PROXIMIDADE>3 Dias</PROXIMIDADE>
+	<PROXIMIDADE>4 Dias</PROXIMIDADE>
+	<PROXIMIDADE>5 Dias</PROXIMIDADE>
+</REGRA>
+
+
+</REGRAS>
+
+
+</ROOT>

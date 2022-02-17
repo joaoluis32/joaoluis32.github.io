@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<ALUNOS>
+
+<ALUNO>
+	<NUMERO>5623</NUMERO>
+	<NOME>João Luís</NOME>
+	<DATA> 22/11/2012 </DATA>
+	<HORA>     16H00 </HORA>
+</ALUNO>
+
+<ALUNO>
+	<NUMERO>5652</NUMERO>
+	<NOME>Tiago Fernandes</NOME>
+	<DATA> 23/11/2012 </DATA>
+	<HORA>     11H00 </HORA>
+</ALUNO>
+
+<ALUNO>
+	<NUMERO>5412</NUMERO>
+	<NOME>Daniel Fortes</NOME>
+	<DATA> 23/11/2012 </DATA>
+	<HORA>     15H30 </HORA>
+</ALUNO>
+
+<ALUNO>
+	<NUMERO>4412</NUMERO>
+	<NOME>João Santos</NOME>
+	<DATA> 23/11/2012 </DATA>
+	<HORA>     22H00 </HORA>
+</ALUNO>
+
+</ALUNOS>
